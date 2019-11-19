@@ -10,7 +10,7 @@ namespace MineZone.Models
     {
         private int Id;
         private string NomArticle;
-        private decimal Prix;
+        public decimal Prix;
 
         public Article(int id, string nomArticle, double prix)
         {
